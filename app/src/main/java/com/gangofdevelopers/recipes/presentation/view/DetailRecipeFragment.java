@@ -33,6 +33,7 @@ public class DetailRecipeFragment extends BaseFragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //Need to make transaction better. We can add additional transaction xml for that.
         setSharedElementEnterTransition(TransitionInflater.from(getBaseActivity()).inflateTransition(R.transition.image_shared_element_transition));
     }
 

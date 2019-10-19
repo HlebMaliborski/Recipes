@@ -53,7 +53,6 @@ public class MasterRecipeFragment extends BaseFragment implements RecipeClickLis
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Transition fadeTransition = new Fade();
-
         TransitionSet set = new TransitionSet();
         set.addTransition(fadeTransition);
 
